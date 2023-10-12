@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Count Down Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onloadstart=" countDownTimer()">
+        <div class="warning"></div>
+        <header class="center">
+                <div class="header time center">
+                    <form action="" method="get">
+                        <div class="hours"> 
+                            <input type="number"  class="hour" value="00">
+                            <p class="input-text">Hour</p>
+                        </div>
+                        <div class="hours"> 
+                            <input type="number" class="min" value="00">
+                            <p class="input-text">Minute</p>
+                        </div>
+                            <div class="hours"> 
+                                <input type="number"  class="sec" value="00">
+                                <p class="input-text" >Second</p>
+                            </div>
+                    </form>
+                </div>
+               
+            </header>
+    <div class="container center">
+        <div class="circle-container center">
+            <div class="semicircle"></div>
+            <div class="semicircle"></div>
+            <div class="semicircle"></div>
+            <div class="outermost-semicirle"></div>
+        </div>
+        <div class="timer-container center">
+            <div class="timer center">
+                <div id="display_default_timer">Timer</div>
+                <!-- 00 <span class="coloon">:</span>00<span class="coloon">:</span>00 -->
+            </div>
+        </div>
+    </div>
+    
+    <div><button type="submit" class="btn">Start</button></div>
+        
+
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
